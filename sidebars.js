@@ -9,13 +9,12 @@ module.exports = {
       id: 'features',
     },
     {
-      type: 'category',
-      label: 'CI Integration',
-      items: [
-        'gitlab-pipeline-integration',
-        'jenkins-ci-integration',
-        'travis-integration',
-      ],
+      type: 'doc',
+      id: 'how-to-use',
+    },
+    {
+      type: 'doc',
+      id: 'roadmap',
     },
   ],
 };
