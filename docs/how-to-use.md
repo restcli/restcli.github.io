@@ -4,6 +4,18 @@ title: How to use
 sidebar_label: How to use
 ---
 
+# Install
+There are two ways to get the restcli.
+
+[1] - The fastest way to get rest cli is download jar from [relese tabs](https://github.com/restcli/restcli/releases)
+
+[2] - Install via homebrew
+```shell script
+brew tap restcli/restcli
+brew install restcli
+```
+# Usage
+
 ```
 Usage: rest-cli [-hV] [-e=<environmentName>] [-l=<logLevel>]
                 [-r=<testReportNames>] FILES...
